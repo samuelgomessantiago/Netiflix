@@ -39,13 +39,14 @@ header img{
 }
 
 form{
-    background-color: rgba(0, 0, 0, 0.70);
+    background-color: rgba(0, 0, 0, 0.66);
     width: 450px;
     height: 650px;
     justify-content: center;
     align-items: center;
     margin: auto;
     border-radius: 20px;
+    box-shadow: 5px 5px 13px 1px black;
 }
 
 form > h1{
