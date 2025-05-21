@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+body::before{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+header{
+    padding: 30px 50px;
+    position: relative;
+    z-index: 10;
+}
+
+header img{
+    width: 170px;
+    height: 45px;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.70);
+    width: 450px;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+}
+
+form > h1{
+    color: white;
+    padding: 55px 50px 30px 50px;
+    position: relative;
+    z-index: 10;
+}
+
+.box{
+    position: relative;
+    z-index: 10;
+}
+
+.box .login-box{
+    padding: 6px 0px 25px 50px;
+}
+
+.box .login-box input{
+    width: 340px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(75, 74, 74, 0.99);
+    padding-left: 10px;
+}
+
+.box .login-box input:hover{
+    background-color: rgba(90, 89, 89, 0.983);
+}
+
+.buttom{
+    padding-left: 50px;
+    padding-top: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.buttom input{
+    width: 350px;
+    height: 54px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e50914;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.buttom input:hover{
+    background-color: #96050d;
+}
+
+.caixa{
+    display: flex;
+    position: relative;
+}
+
+.caixa .mark{
+    padding-left: 50px;
+    padding-top: 10px;
+    color: rgb(150, 148, 148);
+}
+
+.caixa .right{
+    padding-top: 10px;
+    padding-left: 70px;
+}
+
+.caixa .right > a {
+    text-decoration: none;
+    color: rgb(150, 148, 148) ;
+}
+
+#facebook-logo{
+    display: flex;
+    position: relative;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+#facebook-logo > img{
+    width: 25px;
+    height: 25px;
+}
+
+#facebook-logo > a{
+    text-decoration: none;
+    color: rgb(150, 148, 148);
+    padding: 5px;
+}
+
+#asinar{
+    position: relative;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+#asinar > p{
+    color: rgb(150, 148, 148);
+}
+
+#asinar > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding-left: 4px;
+}
+
+#link{
+    width: 418px;
+}
+
+#link p{
+    position: relative;
+    padding-top: 40px;
+    padding-left: 50px;
+    color: rgb(150, 148, 148) ;
+}
+
+#link p > a{
+    text-decoration: none;
+    color: rgb(36, 39, 239);
+    font-weight: bolder;
+}
